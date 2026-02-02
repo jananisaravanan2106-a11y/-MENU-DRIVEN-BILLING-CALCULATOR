@@ -1,0 +1,80 @@
+🧾 Menu Driven Billing Calculator using Python
+📌 Project Overview
+
+The Menu Driven Billing Calculator is a simple Python-based project that allows users to perform basic billing and arithmetic operations through a menu-driven interface. This project is ideal for beginners to understand core Python concepts in a practical way.
+
+🎯 Problem Statement
+
+To design and implement a menu-driven billing calculator that enables users to perform basic arithmetic operations such as addition, subtraction, multiplication, division, viewing the total bill amount, and exiting the program.
+
+✅ Objectives
+
+Perform basic billing calculations
+
+Implement menu-driven programming
+
+Understand Python operators and input/output
+
+Apply loops and conditional statements
+
+🛠️ Tools & Technologies Used
+
+Programming Language: Python 3
+
+IDE: VS Code / Python IDLE
+
+🧠 Project Description
+
+This project simulates a simple billing calculator. The user interacts with a menu to:
+
+Add item costs to the bill
+
+Subtract discounts
+
+Multiply price by quantity
+
+Divide amounts
+
+View the total bill amount
+
+Exit the program
+
+The bill amount is updated after each operation based on the user’s choice.
+
+🧮 Algorithm
+
+Initialize the total bill amount
+
+Display the billing menu
+
+Read the user’s choice
+
+Perform the selected operation
+
+Update and display the bill amount
+
+Repeat the process until the user exits
+
+💻 Sample Python Code
+price1 = float(input("Enter price of item 1: "))
+qty1 = int(input("Enter quantity of item 1: "))
+
+price2 = float(input("Enter price of item 2: "))
+qty2 = int(input("Enter quantity of item 2: "))
+
+amount1 = price1 * qty1
+amount2 = price2 * qty2
+
+total = amount1 + amount2
+print("Total Bill Amount =", total)
+
+🧪 Sample Output
+Enter price of item 1: 50
+Enter quantity of item 1: 2
+Enter price of item 2: 30
+Enter quantity of item 2: 1
+Total Bill Amount = 130.0
+
+🏁 Result
+
+The menu-driven billing calculator successfully performs arithmetic operations and displays the correct total bill amount.
